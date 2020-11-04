@@ -1,0 +1,23 @@
+{{!-- <div class="card" style="width: 20rem;">
+  <img src="{{tvDetail.image}}" class="card-img-top" alt="tv-show-image">
+  <div class="card-body">
+    <h5 class="card-title">{{tvDetail.name}} </h5>
+    <h5 class="card-title">Ratings: {{tvDetail.rating}}</h5>
+    <p class="card-text">{{{tvDetail.summary}}}</p>
+    <a href="{{tvDetail.official_site}}" class="btn btn-primary">Go To Official Site</a>
+  </div>
+</div>
+<div class="div mt-2">
+    <a href="/"><button class="btn btn-success">Back</button></a>
+</div> --}}
+<div class="row mt-2">
+  <div class="media">
+    <img src="{{tvDetail.image}}" class="align-self-center mr-3" alt="tv-show-image">
+    <div class="media-body">
+      <h5 class="mt-0">{{tvDetail.name}}</h5>
+      <h5 class="mt-0">Ratings: {{tvDetail.rating}}</h5>
+      <p>{{{tvDetail.summary}}}</p>
+      <a href="{{tvDetail.official_site}}" class="btn btn-primary btn-right">Go To Official Site</a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+{{#if haveResults}}
+<h1>Road To Hell List</h1>
+
+<ul class="list-group">
+    {{#each tvlist}}
+        <a href="/tvlist/{{this.tvid}}" class="list-group-item list-group-item-action">{{this.name}}</a>
+    {{/each}}
+</ul>
+{{else}}
+    <h1>You sure you searching for this???? you fking serious???????</h1>
+{{/if}}
